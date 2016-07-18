@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+cd "$(dirname "${BASH_SOURCE[0]}")"
+autoreconf -vif
+rm -rf build || true
+mkdir build
+cd build
+../configure --enable-silent-rules
+echo "Generated Makefile at $(pwd)"
