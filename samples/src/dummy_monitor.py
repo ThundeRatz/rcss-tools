@@ -5,7 +5,7 @@ import socket
 # soccerserver uses a special connection setup to keep connection state and
 # allow dynamic assignment of ports on top of UDP.
 #
-# The server listens for connection requests on UDP port 6000.
+# The server listens for trainer connection requests on UDP port 6000.
 #
 # The monitor must bind to some UDP port and send initialization commands to
 # 6000. This binded port will be used for the remainder of the session.
