@@ -6,10 +6,14 @@ config.log
 compile
 configure
 depcomp
+htmlcov/
 install-sh
 Makefile.in
 missing
+.cache/
+.coverage
 .deps/
+__pycache__/
 
 *.o
 *~
