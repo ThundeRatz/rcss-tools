@@ -10,6 +10,7 @@ htmlcov/
 install-sh
 Makefile.in
 missing
+venv/
 .cache/
 .coverage
 .deps/
