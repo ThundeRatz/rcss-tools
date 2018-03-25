@@ -19,7 +19,7 @@ setup(
     description='RoboCup Soccer Simulation library',
     long_description=long_description,
 
-    url='https://github.com/ThundeRatz',
+    url='https://github.com/ThundeRatz/rcss-tools',
 
     author='Tiago Koji Castro Shibata',
     author_email='tiago.shibata@thunderatz.org',
